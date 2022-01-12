@@ -1,6 +1,11 @@
 .container {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
   }
-  
+
+  body {
+    background-image: url('./assets/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+  }
