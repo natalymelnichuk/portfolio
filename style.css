@@ -164,10 +164,8 @@ h2 {
   text-align: center;
   color: #BDAE82;
   background-color: black;
-  
   padding: 0 20px;
   position: absolute;
-
 }
 
 .section-title-line {
@@ -318,4 +316,41 @@ h2 {
 .portfolio-items img {
   width: 450px;
   height: 560px;
+}
+
+#video {
+  width: 100%;
+  height: 945px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video1 {
+  width: 1400px;
+  height: 705px;
+  position: absolute;  
+}
+
+.video-player {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-player button {
+  width: 130px;
+  height: 130px;    
+  position: relative;  
+  top: 288px; 
+  background-image: url(./assets/svg/Play_Unvisited.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+}
+
+.video-player button:hover {
+  background-image: url(./assets/svg/Play_hover\ \(1\).svg);
 }
