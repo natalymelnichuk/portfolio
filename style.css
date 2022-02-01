@@ -50,8 +50,6 @@ nav {
 }
 
 .nav_switch ul {
-  font-size: 20px;
-  line-height: 50px;
   padding: 0 0;
   display: flex;
   flex-direction: row;
@@ -72,22 +70,36 @@ nav {
   text-decoration: none;
 }
 
-.buttons {
+.language-buttons-list {
   width: 70px;
   border: none;
-  font-size: 20px;
-  line-height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around;  
 }
 
-.en {
+.language_button {
+  background-color: transparent;
+  border: 0;  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;  
+}
+
+.language_button_active {
+  background-color: transparent;
+  border: 0;  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
   color: #BDAE82;
-}
-
-.ru {
-  color: white;
 }
 
 a {
@@ -132,7 +144,7 @@ main .hero p {
   margin-top: 160px;
 }
 
-.section button {
+.hero-button {
   width: 220px;
   height: 55px;
   background-color: #BDAE82;
@@ -143,6 +155,7 @@ main .hero p {
   line-height: 40px;
   text-align: center;
   color: #000000;
+  border: 0;
 }
 
 #skills {
@@ -185,7 +198,7 @@ h2 {
   height: 2px;
   background-color: #BDAE82;
   position: absolute;
-  top: calc(50% -1px);
+  top: calc(50% - 1px);
 }
 
 .skills-items {
@@ -262,9 +275,11 @@ h2 {
   align-items: center;
 }
 
-#portfolio li {
-  color: blanchedalmond;
+.portfolio-list li {
   list-style-type: none;
+}
+
+.portfolio-button {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -280,9 +295,21 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
 }
 
-#portfolio li:last-of-type {
+.portfolio-button-active {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  width: 220px;
+  height: 55px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #000000;
   background: #BDAE82;
   border: 2px solid #BDAE82;
@@ -344,7 +371,7 @@ h2 {
   height: 130px;    
   position: relative;  
   top: 288px; 
-  background-image: url(./assets/svg/Play_Unvisited.svg);
+  background-image: url('./assets/svg/Play_Unvisited.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -352,5 +379,5 @@ h2 {
 }
 
 .video-player button:hover {
-  background-image: url(./assets/svg/Play_hover_1.svg);
+  background-image: url('./assets/svg/Play_hover_1.svg');
 }
