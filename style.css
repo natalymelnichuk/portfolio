@@ -178,7 +178,7 @@ h2 {
   color: #BDAE82;
   background-color: black;
   padding: 0 20px;
-  position: absolute;
+  position: absolute;  
 }
 
 .section-title-line {
@@ -275,7 +275,7 @@ h2 {
   align-items: center;
 }
 
-.portfolio-list li {
+#portfolio ul {
   list-style-type: none;
 }
 
@@ -317,16 +317,13 @@ h2 {
   border-radius: 0px;
 }
 
-#portfolio ul {
+.portfolio-list {
+  margin-top: 60px;
   width: 895px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-}
-
-.portfolio-list {
-  margin-top: 60px;
 }
 
 .portfolio-items {
