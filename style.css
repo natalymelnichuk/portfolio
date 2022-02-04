@@ -520,6 +520,10 @@ h2 {
   vertical-align: top;
 }
 
+.contacts-container input:focus {
+  outline: 0;
+}
+
 .contacts-container textarea {
   font-family: Inter;
   font-style: normal;
@@ -534,6 +538,10 @@ h2 {
   text-indent: 20px;
   vertical-align: top;
   resize: none;
+}
+
+.contacts-container textarea:focus {
+  outline: 0;
 }
 
 .contacts-container button {
