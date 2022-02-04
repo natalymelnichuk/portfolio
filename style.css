@@ -175,8 +175,8 @@ h2 {
   font-size: 40px;
   line-height: 80px;
   text-align: center;
-  color: #BDAE82;
-  background-color: black;
+  color: #BDAE82;  
+  background-color: black;  
   padding: 0 20px;
   position: absolute;  
 }
@@ -462,4 +462,91 @@ h2 {
   height: 55px;
   border: 0;
   margin-bottom: 43px;
+}
+
+#contacts {
+  width: 1440px;
+  height: 700px;
+  background-image: url('./assets/img/contacts.jpg');
+}
+
+#contacts h2 {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #BDAE82;
+  background-color: transparent;
+  padding: 0 0;
+  position: static;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 970px;
+  width: 450px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts-container-message {
+  width: 450px;
+  height: 100px;  
+}
+
+.contacts-container-email .contacts-container-phone {
+  width: 450px;
+  height: 50px;  
+}
+
+.contacts-container input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #BDAE82;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #BDAE82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  text-indent: 20px;
+  vertical-align: top;
+}
+
+.contacts-container textarea {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #BDAE82;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #BDAE82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  text-indent: 20px;
+  vertical-align: top;
+  resize: none;
+}
+
+.contacts-container button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  background: #BDAE82;
+  border-radius: 0px;
+  width: 220px;
+  height: 55px; 
+  border: 0;
 }
