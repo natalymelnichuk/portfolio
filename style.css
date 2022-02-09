@@ -28,6 +28,11 @@ header main footer{
 
 header img {
   width: 50px;
+  margin-left: 20px;  
+}
+
+header img:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);   
 }
 
 header .container {
@@ -68,6 +73,10 @@ nav {
 
 .nav_switch ul a {
   text-decoration: none;
+}
+
+.nav_switch ul a:hover {
+  color: #BDAE82;;
 }
 
 .language-buttons-list {
@@ -156,6 +165,10 @@ main .hero p {
   text-align: center;
   color: #000000;
   border: 0;
+}
+
+.hero-button:hover {
+  color: white;
 }
 
 #skills {
@@ -297,6 +310,10 @@ h2 {
   background-color: #000000;
 }
 
+.portfolio-button:hover {
+  color: white;
+}
+
 .portfolio-button-active {
   font-family: Inter;
   font-style: normal;
@@ -314,6 +331,10 @@ h2 {
   border: 2px solid #BDAE82;
   box-sizing: border-box;
   border-radius: 0px;
+}
+
+.portfolio-button-active:hover {
+  color: white;
 }
 
 .portfolio-list {
@@ -500,12 +521,16 @@ h2 {
   height: 100px;  
 }
 
-.contacts-container-email .contacts-container-phone {
+.contacts-container input {
   width: 450px;
   height: 50px;  
+  border: 2px solid #BDAE82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.contacts-container input {
+.contacts-container input::placeholder {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -513,23 +538,34 @@ h2 {
   line-height: 40px;
   color: #BDAE82;
   background: rgba(0, 0, 0, 0.5);
-  border: 2px solid #BDAE82;
-  box-sizing: border-box;
-  border-radius: 0px;
   text-indent: 20px;
   vertical-align: top;
 }
 
-.contacts-container input:focus {
-  outline: 0;
-}
-
-.contacts-container textarea {
+.contacts-container textarea::placeholder {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
+  color: #BDAE82;
+  background: rgba(0, 0, 0, 0.5);
+  text-indent: 20px;
+  vertical-align: top;
+}
+
+.contacts-container input:focus {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #BDAE82;
+  text-indent: 20px;
+  outline: 0;
+}
+
+.contacts-container textarea {
   color: #BDAE82;
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid #BDAE82;
@@ -541,6 +577,13 @@ h2 {
 }
 
 .contacts-container textarea:focus {
+  color: #BDAE82;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-indent: 20px;
   outline: 0;
 }
 
@@ -560,7 +603,7 @@ h2 {
 }
 
 footer .container {
-  width: 100%;
+  width: 1440px;
   height: 150px;
   display: flex;
   flex-direction: row;
@@ -582,7 +625,10 @@ footer .container {
   font-weight: normal;
   font-size: 20px;
   line-height: 50px;
-  color: #FFFFFF;
+  color: #FFFFFF;  
+}
+
+.data {
   padding: 0 20px;
 }
 
@@ -596,7 +642,7 @@ footer .container a {
   text-decoration: none;
 }
 
-.footer-data img {
+.copyright {
   width: 19px;
   height: 50px;
 }
@@ -609,4 +655,12 @@ footer .container a {
   flex-direction: row;
   justify-content: space-between;  
   align-items: center;
+}
+
+.social-list li {
+  list-style-type: none;
+}
+
+.social-list img:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
 }
