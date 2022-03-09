@@ -661,6 +661,32 @@ footer .container a {
   list-style-type: none;
 }
 
-.social-list img:hover {
+.social-list a {
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+.fa-instagram {
+  font-size: 1.8em;  
+}
+
+.fa-facebook-f  {
+  font-size: 1.4em; 
+}
+
+.fa-twitter {
+  font-size: 1.6em;
+}
+
+.fa-pinterest {
+  font-size: 1.6em;
+}
+
+.social-list i:hover {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
 }
+
