@@ -161,9 +161,11 @@ main .hero p {
   color: #FFFFFF;
 }
 
+/*
 .hero {
   
 }
+*/
 
 .hero .section  {
   
@@ -271,7 +273,7 @@ h2 {
   margin: 0px 20px 8px 20px;
   
 }
-
+/*
 .photo img {
   
 }
@@ -288,6 +290,7 @@ h2 {
 .audio img {
   
 }
+*/
 
 #portfolio {
   
@@ -363,9 +366,11 @@ h2 {
   align-content: space-between;
 }
 
+/*
 .portfolio-items img {
   
 }
+*/
 
 #video {
   
@@ -512,9 +517,11 @@ h2 {
   justify-content: space-between;
 }
 
+/*
 .contacts-container-message {
   
 }
+*/
 
 .contacts-container input {
   
@@ -634,13 +641,14 @@ footer .container a {
   color: #FFFFFF;
   text-decoration: none;
 }
-
+/*
 .copyright {
-  /*
+  
   width: 19px;
   height: 50px;
-  */
+  
 }
+*/
 
 .social-list {
   
