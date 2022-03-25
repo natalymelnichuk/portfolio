@@ -162,9 +162,7 @@ main .hero p {
 }
 
 .hero .section  {  
-  margin-left: 80px;
-  margin-top: 160px;
-  margin-bottom: 330px;
+  margin: 160px 860px 330px 80px;  
 }
 
 .hero-button {  
