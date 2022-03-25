@@ -95,7 +95,6 @@ header .container {
   color: #FFFFFF; 
 }
 
-
 .language-buttons-list {
   border: none;
   display: flex;
@@ -151,6 +150,7 @@ h1 {
 }
 
 main .hero p {
+  width: 470px;
   margin-top: 10px;
   margin-bottom: 25px;
   font-family: Inter;
@@ -161,20 +161,13 @@ main .hero p {
   color: #FFFFFF;
 }
 
-/*
-.hero {
-  
-}
-*/
-
-.hero .section  {
-  
+.hero .section  {  
   margin-left: 80px;
   margin-top: 160px;
+  margin-bottom: 330px;
 }
 
-.hero-button {
-  
+.hero-button {  
   background-color: #BDAE82;
   font-family: Inter;
   font-style: normal;
@@ -184,6 +177,7 @@ main .hero p {
   text-align: center;
   color: #000000;
   border: 0;
+  padding: 8px 72px;
 }
 
 .hero-button:hover {
