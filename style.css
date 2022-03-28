@@ -183,8 +183,7 @@ main .hero p {
 }
 
 #skills {
-  margin: 0 0;
-  
+  margin: 0 0;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -204,45 +203,42 @@ h2 {
   position: absolute;  
 }
 
-.section-title-line {
-  
+.section-title-line {  
   display: flex;
   justify-content: center;
   align-items: center;  
   position: relative;
   margin-top: 100px;
+  margin-bottom: 60px;
+  width: 700px;
+  height: 80px;
 }
 
 .section-title-line::before {
   content: '';
-  display: block;
-  /*
+  display: block;  
   width: 700px;
   height: 2px;
-  */
   background-color: #BDAE82;
   position: absolute;
   top: calc(50% - 1px);
 }
 
-.skills-items {
-  
+.skills-items {  
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.items {
-  
+.items {  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.skills-items h4 {
-  
+.skills-items h4 {  
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -251,10 +247,10 @@ h2 {
   text-align: center;
   color: #FFFFFF;
   margin: 50px 20px 20px 20px;
+  width: 280px;
 }
 
-.skills-items p {
-  
+.skills-items p {  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -263,15 +259,17 @@ h2 {
   text-align: center;
   color: #FFFFFF;
   margin: 0px 20px 8px 20px;
-  
+  width: 280px;
 }
-/*
+
 .photo img {
-  
+  width: 62px;
+  height: 50px;
 }
 
 .video img {
-  
+  width: 60px;
+  height: 50px;
 }
 
 .retouch img {
@@ -280,9 +278,21 @@ h2 {
 }
 
 .audio img {
-  
+  width: 32px;
+  height: 50px;
+}
+/*
+.photo {
+  margin-left: 20px;
 }
 */
+.video {
+  margin-right: 80px;
+}
+
+.retouch {
+  margin-right: 40px;
+}
 
 #portfolio {
   
@@ -688,569 +698,11 @@ footer .container a {
 
 /*
 @media (max-width: 1919px) {
-  .container {
-    max-width: 1440px;
-  }
   
-  header main footer{
-    width: 100%;
-  }
-  
-    header img {
-    width: 50px;
-  }
- 
-  .nav_switch {
-    width: 570px;
-  }
-  
-  nav {
-    width: 500px;
-  }
-  
-  .language-buttons-list {
-    width: 70px;
-  }
-  
-  .hero {
-    width: 100%;
-    height: 820px;
-  }
-  
-  .hero .section  {
-    width: 500px;
-    height: 330px;
-  }
-  
-  .hero-button {
-    width: 220px;
-    height: 55px;
-  }
-  
-  #skills {
-    width: 100%;
-    height: 482px;
-  }
-   
-  .section-title-line {
-    width: 700px;
-    height: 80px;
-  }
-  
-  .section-title-line::before {
-    width: 700px;
-    height: 2px;
-  }
-  
-  .skills-items {
-    width: 1400px;
-    height: 242px;
-  }
-  
-  .items {
-    width: 320px;
-    height: 240px;
-  }
-  
-  .skills-items h4 {
-    width: 280px;
-    height: 40px;
-  }
-  
-  .skills-items p {
-    max-width: 280px;
-    height: 72px;    
-  }
-  
-  .photo img {
-    width: 62px;
-    height: 50px;
-  }
-  
-  .video img {
-    width: 60px;
-    height: 50px;
-  }
-  
-  .retouch img {
-    width: 66px;
-    height: 50px;
-  }
-  
-  .audio img {
-    width: 32px;
-    height: 50px;
-  }
-  
-  #portfolio {
-    width: 100%;
-    height: 1500px;
-  }
-  
-    .portfolio-list {
-    margin-top: 60px;
-    width: 895px;
-  }
-  
-  .portfolio-items {
-    width: 1400px;
-    height: 1145px;
-  }
-  
-  .portfolio-items img {
-    width: 450px;
-    height: 560px;
-  }
-  
-  #video {
-    width: 100%;
-    height: 945px;
-  }
-  
-  .video1 {
-    width: 1400px;
-    height: 705px;
-  }
-  
-  .video-player button {
-    width: 130px;
-    height: 130px;  
-  }
-  
-  #price {
-    width: 100%;
-    height: 845px;
-  }
-  
-  .price-items {
-    width: 1400px;
-    height: 505px;
-  }
-  
-  .price-item {
-    width: 450px;
-    height: 505px;
-  }
-      
-  .price-item-p {
-    width: 364px;
-    height: 180px;
-  }
-  
-  .price-item button {
-    width: 220px;
-    height: 55px;
-  }
-  
-  #contacts {
-    max-width: 1440px;
-    height: 700px;
-  }
-  
-  .contacts-container {
-    width: 450px;
-    height: 445px;
-  }
-  
-  .contacts-container-message {
-    width: 450px;
-    height: 100px;  
-  }
-  
-  .contacts-container input {
-    width: 450px;
-    height: 50px;  
-  }
-    
-  .contacts-container button {
-    width: 220px;
-    height: 55px; 
-  }
-  
-  footer .container {
-    max-width: 1440px;
-    height: 150px;
-  }
-   
-  .copyright {
-    width: 19px;
-    height: 50px;
-  }
-  
-  .social-list {
-    width: 188px;
-    height: 50px;
-  }
-  
-  .social-list a {
-    width: 32px;
-    height: 32px;
-  }
 }
 */
 /*
 @media (max-width: 1439px) {
 
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 0;
-    display: flex;  
-    justify-content: center;
-  }
-  
-  body {
-    background-color: black;
-    height: 590px;
-    background-size: auto 590px; 
-    background-origin: content-box;
-  }
-  
-  header main footer{
-    width: 100%;
-    display: flex;  
-    justify-content: center;
-  }
-
-  header img {
-    width: 50px;
-    margin: 20px 440px 20px 60px;
-  }
-  
-  header .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-  }
-
-  nav {
-    width: 500px;
-    display: none;
-  }
-
-  
-  .nav_switch .fa-bars {  
-    color: white;
-    font-size: 3.57em;
-    display: block;
-  }
-  
-  .language_button_active {
-    margin-right: 9px;
-  }
-
-  .language_button {
-    margin-left: 18px;
-    margin-right: 20px;
-  }
-  
-  .nav_switch ul {
-    padding: 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  main .container{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .hero {
-    width: 100%;
-    height: 500px;
-  }
-  
-  .hero .section  {
-    width: 500px;
-    height: 330px;
-    margin-left: 80px;
-    margin-top: 160px;
-  }
-  
-  .hero-button {
-    width: 220px;
-    height: 55px;
-  }
-  
-  #skills {
-    margin: 0 0;
-    width: 100%;
-    height: 729px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  
-  .section-title-line {
-    width: 700px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    position: relative;
-    margin-top: 100px;
-  }
-  
-  .section-title-line::before {
-    content: '';
-    display: block;
-    width: 700px;
-    height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: calc(50% - 1px);
-  }
-  
-  .skills-items {
-    width: 728px;
-    height: 520px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .items {
-    width: 300px;
-    height: 224px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .photo img {
-    width: 62px;
-    height: 50px;
-  }
-  
-  .video img {
-    width: 60px;
-    height: 50px;
-  }
-  
-  .retouch img {
-    width: 66px;
-    height: 50px;
-  }
-  
-  .audio img {
-    width: 32px;
-    height: 50px;
-  }
-  
-  #portfolio {
-    width: 100%;
-    height: 1500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .portfolio-button {
-    width: 220px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .portfolio-button-active {
-    width: 220px;
-    height: 55px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .portfolio-list {
-    margin-top: 60px;
-    width: 895px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;  
-  }
-  
-  .portfolio-items {
-    width: 728px;
-    height: 1145px;
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-  }
-  
-  .portfolio-items img {
-    width: 450px;
-    height: 560px;
-  }
-  
-  #video {
-    width: 100%;
-    height: 945px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .video1 {
-    width: 728px;
-    height: 705px;
-    position: absolute;  
-  }
-  
-  .video-player {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .video-player button {
-    width: 130px;
-    height: 130px;    
-    position: relative;  
-    top: 288px; 
-  }
-  
-  .video-player button:hover {
-    background-image: url('./assets/svg/Play_hover_1.svg');
-  }
-  
-  #price {
-    width: 100%;
-    height: 845px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .price-items {
-    width: 728px;
-    height: 505px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 60px;
-  }
-  
-  .price-item {
-    width: 450px;
-    height: 505px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .price-item-p {
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 364px;
-    height: 180px;
-  }
-  
-  .price-item button {
-    width: 220px;
-    height: 55px;
-    border: 0;
-    margin-bottom: 43px;
-  }
-  
-  #contacts {
-    max-width: 768px;
-    height: 700px;
-    background-image: url('./assets/img/contacts.jpg');
-  }
-  
-  #contacts h2 {
-    padding: 0 0;
-    position: static;
-    left: 0;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .contacts-container {
-    margin-top: 60px;
-    margin-left: 970px;
-    width: 450px;
-    height: 445px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .contacts-container-message {
-    width: 450px;
-    height: 100px;  
-  }
-  
-  .contacts-container input {
-    width: 450px;
-    height: 50px;  
-  }
-  
-  .contacts-container button {
-    width: 220px;
-    height: 55px; 
-  }
-  
-  footer .container {
-    max-width: 768px;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-  }
-  
-  .footer-data {
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-  }
-  
-  .data {
-    padding: 0 20px;
-  }
-  
-  .copyright {
-    width: 19px;
-    height: 50px;
-  }
-  
-  .social-list {
-    width: 188px;
-    height: 50px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-  }
-  
-  .social-list a {
-    list-style-type: none;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;  
-    align-items: center;
-  }
-  
 }
 */
