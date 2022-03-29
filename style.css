@@ -281,11 +281,7 @@ h2 {
   width: 32px;
   height: 50px;
 }
-/*
-.photo {
-  margin-left: 20px;
-}
-*/
+
 .video {
   margin-right: 80px;
 }
@@ -294,8 +290,7 @@ h2 {
   margin-right: 40px;
 }
 
-#portfolio {
-  
+#portfolio {  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -311,8 +306,7 @@ h2 {
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
-  text-align: center;
-  
+  text-align: center;  
   color: #BDAE82;
   border: 2px solid #BDAE82;
   box-sizing: border-box;
@@ -320,7 +314,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #000000;  
 }
 
 .portfolio-button:hover {
@@ -333,8 +327,7 @@ h2 {
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
-  text-align: center;
-  
+  text-align: center;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,23 +336,36 @@ h2 {
   border: 2px solid #BDAE82;
   box-sizing: border-box;
   border-radius: 0px;
+  padding: 6px 71.5px 5px 71.5px;
+}
+
+.winter {
+  padding: 6px 77.2px 5px 77.2px;
+  margin-right: 5px;
+}
+
+.spring {
+  padding: 6px 77.5px 5px 77.5px;
+  margin-right: 5px;
+}
+
+.summer {
+  padding: 6px 68.9px 5px 68.9px;
+  margin-right: 5px;
 }
 
 .portfolio-button-active:hover {
   color: white;
 }
 
-.portfolio-list {
-  margin-top: 60px;
-  
+.portfolio-list {  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
 }
 
-.portfolio-items {
-  
+.portfolio-items {  
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -369,10 +375,13 @@ h2 {
 }
 
 /*
-.portfolio-items img {
-  
-}
 */
+
+.portfolio-items img {
+  width: 450px;
+  height: 560px;
+}
+
 
 #video {
   
