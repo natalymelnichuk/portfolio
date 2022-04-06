@@ -392,29 +392,30 @@ h2 {
 }
 /* 
 */
-#video {
-  
+#video {  
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.video1 {
-  
+.video1 {    
   position: absolute;  
 }
 
-.video-player {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
+.video-player {   
+  width: 1400px;
+  height: 705px;  
+  display: flex;  
+  flex-direction: column;  
   align-items: center;
 }
 
-.video-player button {
-      
-  position: relative;  
-  top: 288px; 
+
+.video-player button {      
+  width: 130px;
+  height: 130px;   
+  position: relative; 
+  top: 288px;
   background-image: url('./assets/svg/Play_Unvisited.svg');
   background-size: contain;
   background-repeat: no-repeat;
