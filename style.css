@@ -532,8 +532,7 @@ h2 {
 .gold h5 {
   margin: 0px 185px 20px 185px;
 }
-/*
-*/
+
 #contacts {
   max-width: 1440px;  
   background-image: url('./assets/img/contacts.jpg');
@@ -552,29 +551,34 @@ h2 {
   left: 0;
   display: flex;
   justify-content: flex-start;
+  width: 450px;
+  margin: 0px 20px 40px 0px;
 }
 
 .contacts-container {
-  margin-top: 60px;
-  margin-left: 970px;
-  
+  margin: 60px 20px 195px 970px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/*
 .contacts-container-message {
-  
+  width: 450px;
+  height: 100px;
+  margin-bottom: 30px;
 }
-*/
 
 .contacts-container input {
-  
+  width: 450px;
+  /*
+  height: 50px; */
   border: 2px solid #BDAE82;
   box-sizing: border-box;
   border-radius: 0px;
   background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  line-height: 40px;
+  padding: 5px auto;
 }
 
 .contacts-container input::placeholder {
@@ -586,19 +590,7 @@ h2 {
   color: #BDAE82;
   background: rgba(0, 0, 0, 0.5);
   text-indent: 20px;
-  vertical-align: top;
-}
-
-.contacts-container textarea::placeholder {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #BDAE82;
-  background: rgba(0, 0, 0, 0.5);
-  text-indent: 20px;
-  vertical-align: top;
+  vertical-align: center;  
 }
 
 .contacts-container input:focus {
@@ -610,7 +602,13 @@ h2 {
   color: #BDAE82;
   text-indent: 20px;
   outline: 0;
+  box-sizing:border-box;
+  /*
+  vertical-align: center;
+  */
+  padding: 5px auto;
 }
+
 
 .contacts-container textarea {
   color: #BDAE82;
@@ -634,6 +632,18 @@ h2 {
   outline: 0;
 }
 
+.contacts-container textarea::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #BDAE82;
+  background: rgba(0, 0, 0, 0.5);
+  text-indent: 20px;  
+  vertical-align: top;  
+}
+
 .contacts-container button {
   font-family: Inter;
   font-style: normal;
@@ -643,14 +653,15 @@ h2 {
   text-align: center;
   color: #000000;
   background: #BDAE82;
-  border-radius: 0px;
-  
+  border-radius: 0px;  
   border: 0;
+  padding: 8px 40px 7px 40px;
 }
 
+/*
+*/
 footer .container {
-  max-width: 1440px;
-  
+  max-width: 1440px;  
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
