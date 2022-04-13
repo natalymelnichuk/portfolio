@@ -928,28 +928,38 @@ footer .container a {
     margin: 20px 0px;
   }
   */
-  .nav_menu {
+  
+  .nav_switch .hamburger_unvisited {
+    display: block;
+    position: relative;
     width: 50px;
     height: 50px;
   }
 
-  .hamburger_unvisited span, 
+  .hamburger_unvisited span ,  
   .hamburger_unvisited span::after, 
-  .hamburger_unvisited span::before { 
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    width: 700px;
-    height: 80px;
+  .hamburger_unvisited span::before {       
+    position: absolute;
+    top: 50%;
+    margin-top:  -1.5px ;
+    width: 50px;
+    height: 3px;
+    background-color: #FFFFFF;
+    
   }
 
-  .hamburger_unvisited span::after, 
+  .hamburger_unvisited span::after,
   .hamburger_unvisited span::before { 
-    content: '';
+    content: ''; 
   }
+
+  .hamburger_unvisited span::after {
+    transform: translateY(13.5px);
+  }
+  .hamburger_unvisited span::before {
+    transform: translateY(-13.5px);
+  }
+   
   /*
   .nav_switch ul {
     padding: 0 0;
