@@ -888,12 +888,16 @@ footer .container a {
     display: flex;  
     justify-content: center;
   }
-/*   
+
   body {
+    /*
     background-color: black;
-    background-image: url('./assets/img/header-bg.jpg');
+    */
+    background-image: url('./assets/img/header-bg.768.jpg');
+    
     background-repeat: no-repeat;
-    background-position: center 0;   
+    background-position: center 0; 
+    
   }  
   */
   
@@ -934,6 +938,7 @@ footer .container a {
     position: relative;
     width: 50px;
     height: 50px;
+    margin-right: 60px;
   }
 
   .hamburger_unvisited span ,  
@@ -1038,43 +1043,27 @@ footer .container a {
     display: flex;
     flex-direction: column;
   }
-  
+  */
   h1 {
-    margin: 0 0;
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 120px;
-    color: #FFFFFF;
+    margin: 0 0;    
+    font-size: 32px;
+    line-height: 64px;
   }
   
   main .hero p {
-    width: 470px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    width: 390px;
+    margin-top: 20px;
+    margin-bottom: 60px;    
+    font-weight: 400;
     font-size: 20px;
-    line-height: 40px;
-    color: #FFFFFF;
+    line-height: 24px;
   }
   
   .hero .section  {  
-    margin: 160px auto 330px 80px;  
+    margin: 78px auto 150px 60px;  
   }
   
   .hero-button {  
-    background-color: #BDAE82;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-    border: 0;
     padding: 8px 72px;
   }
   
