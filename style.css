@@ -893,10 +893,11 @@ footer .container a {
     /*
     background-color: black;
     */
-    background-image: url('./assets/img/header-bg.768.jpg');
+    background-image: url('./assets/img/header-bg.jpg');
     
     background-repeat: no-repeat;
     background-position: center 0; 
+    background-size: auto 590px;
     
   }  
   */
@@ -1051,7 +1052,6 @@ footer .container a {
   }
   
   main .hero p {
-    width: 390px;
     margin-top: 20px;
     margin-bottom: 60px;    
     font-weight: 400;
@@ -1070,7 +1070,7 @@ footer .container a {
   .hero-button:hover {
     color: white;
   }
-  
+  /*
   #skills {
     margin: 0 0;  
     display: flex;
