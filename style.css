@@ -890,18 +890,11 @@ footer .container a {
   }
 
   body {
-    /*
-    background-color: black;
-    */
-    background-image: url('./assets/img/header-bg.jpg');
-    
     background-repeat: no-repeat;
     background-position: center 0; 
-    background-size: auto 590px;
-    
+    background-size: auto 590px;    
   }  
-  */
-  
+    
   header main footer{
     display: flex;  
     justify-content: center;
@@ -911,15 +904,12 @@ footer .container a {
     margin: 0px auto 0px 60px;  
   }
   /*
-  header img:hover {
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);   
-  }
-  
   header .container {
     display: flex;
     flex-direction: row;  
   }
   */
+
   .nav_switch nav {
     display: none;
   }
@@ -996,55 +986,12 @@ footer .container a {
   .nav_switch ul a:hover {
     color: #BDAE82;;
   }
-  
-  .language-buttons-items {
-    background-color: transparent;
-    border: 0;  
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    color: #FFFFFF; 
-  }
-  
-  .language-buttons-list {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;  
-    list-style-type: none;
-    margin-right: 20px;
-  }
   */
 
   .language_button {
     margin-left: 18px;
   }
-  /*
-  .language_button_active {
-    background-color: transparent;
-    border: 0;  
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    color: #BDAE82;
-    margin-right: 9px;
-  }
-  
-  a {
-    color: white;
-  }
-  
-  main .container{
-    display: flex;
-    flex-direction: column;
-  }
-  */
+
   h1 {
     margin: 0 0;    
     font-size: 32px;
@@ -1078,84 +1025,55 @@ footer .container a {
     justify-content: space-between;
     align-items: center;
   }
-  
+  */
   h2 {
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 80px;
-    text-align: center;
-    color: #BDAE82;  
-    background-color: black;  
-    padding: 0 20px;
-    position: absolute;  
+    font-size: 32px;
+    line-height: 40px;
   }
   
-  .section-title-line {  
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    width: 700px;
-    height: 80px;
+  .section-title-line { 
+    margin-top: 80px;
+    margin-bottom: 36px;
+    width: 364px;
   }
   
   .section-title-line::before {
-    content: '';
-    display: block;  
-    width: 700px;
+    width: 364px;
     height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: calc(50% - 1px);
   }
-  
+   
   .skills-items {  
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
-  
+  /*
   .items {  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+  */
+
   .skills-items h4 {  
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 50px 20px 20px 20px;
+    margin: 30px 10px 20px 10px;
     width: 280px;
   }
   
   .skills-items p {  
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0px 20px 8px 20px;
-    width: 280px;
+    line-height: 22px;
+    margin: 0px 10px 40px 10px;
   }
   
-  .photo img {
-    width: 62px;
-    height: 50px;
+  .skills-items:nth-child(odd) {
+    margin-right: 44px;
   }
   
+  /*
   .video img {
     width: 60px;
     height: 50px;
@@ -1170,15 +1088,18 @@ footer .container a {
     width: 32px;
     height: 50px;
   }
-  
+  */
+
   .video {
-    margin-right: 80px;
+    margin-right: 0px;
   }
   
   .retouch {
-    margin-right: 40px;
+    margin-right: 0px;
   }
-  
+
+
+  /*
   #portfolio {  
     display: flex;
     flex-direction: column;
