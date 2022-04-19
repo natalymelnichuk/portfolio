@@ -1122,105 +1122,49 @@ footer .container a {
     align-items: center;
   }
     
-  /*
+  
   footer .container {
-    max-width: 1440px;  
+    max-width: 768px;     
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;     
   }
   
   .footer-data {
-    margin: 50px 0px 50px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
+    margin: 28px 0px 16px 0px;
   }
   
   .footer-data p {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
-    line-height: 50px;
-    color: #FFFFFF;  
+    line-height: 24px;
   }
-  
+  /*
   .data {
     padding: 0 20px;
   }
-  
+  */
   footer .container a {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
-    line-height: 50px;
-    color: #FFFFFF;
-    text-decoration: none;
+    line-height: 24px;
   }
   
   .copyright {  
     width: 19px;
-    height: 50px; 
+    height: 24px; 
   }
   
   .RSS {
-    margin: 50px 0px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    margin: 0px 0px 20px 0px;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 24px;
+    
   }
   
   .social-list {
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-  }
-  
-  .social-list li {
-    list-style-type: none;
-    margin-right: 20px;
-  }
-  
-  .social-list li:last-child {
     margin-right: 0px;
+    margin-bottom: 28px;
   }
   
-  .social-list a {
-    list-style-type: none;
-    width: 32px;
-    height: 50px;
-    display: flex;
-    justify-content: center;  
-    align-items: center;
-  }
-  
-  .fa-instagram {
-    font-size: 1.5em;  
-  }
-  
-  .fa-facebook-f  {
-    font-size: 1.35em; 
-  }
-  
-  .fa-twitter {
-    font-size: 1.35em;
-  }
-  
-  .fa-pinterest {
-    font-size: 1.35em;
-  }
-  
-  .social-list i:hover {
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
-  } */
 }
 
 
