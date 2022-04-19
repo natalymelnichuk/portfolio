@@ -978,7 +978,7 @@ footer .container a {
   
   .section-title-line { 
     margin-top: 80px;
-    margin-bottom: 36px;
+    margin-bottom: 50px;
     width: 364px;
   }
   
@@ -1101,128 +1101,28 @@ footer .container a {
     margin-right: 0px;
     margin-bottom: 50px;
   }
-  /*
   
   #contacts {
-    max-width: 1440px;  
-    background-image: url('./assets/img/contacts.jpg');
-    display: flex;
+    max-width: 768px; 
+    background-repeat: no-repeat;
+    background-position: center 0; 
+    background-size: auto 600px; 
   }
-  
+     
   #contacts h2 {
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 80px;
-    color: #BDAE82;
-    background-color: transparent;
-    padding: 0 0;
-    position: static;
-    left: 0;
     display: flex;
-    justify-content: flex-start;
-    width: 450px;
-    margin-bottom: 40px;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 64px;
   }
   
   .contacts-container {
-    margin: 60px 20px 195px auto;
+    margin: 60px auto 110px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
   }
-  
-  .contacts-container-message {
-    width: 450px;
-    height: 100px;
-    margin-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .contacts-container input {
-    width: 450px;  
-    height: 50px; 
-    border: 2px solid #BDAE82;
-    box-sizing: border-box;
-    border-radius: 0px;
-    background: rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 40px;
-  }
-  
-  .contacts-container input::placeholder {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    color: #BDAE82;
-    text-indent: 20px;
-    vertical-align: center;  
-  }
-  
-  .contacts-container input:focus {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    color: #BDAE82;
-    text-indent: 20px;
-    outline: 0;
-    box-sizing:border-box;  
-    vertical-align: center;
-  }
-  
-  .contacts-container textarea {
-    color: #BDAE82;
-    border: 2px solid #BDAE82;
-    box-sizing: border-box;
-    border-radius: 0px;
-    text-indent: 20px;
-    vertical-align: top;
-    resize: none;
-  }
-  
-  .contacts-container textarea:focus {
-    color: #BDAE82;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    text-indent: 20px;
-    outline: 0;
-  }
-  
-  .contacts-container textarea::placeholder {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    color: #BDAE82;
-    text-indent: 20px;  
-    vertical-align: top;  
-  }
-  
-  .contacts-container button {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;  
-    background: #BDAE82;
-    border-radius: 0px;  
-    border: 0;
-    padding: 8px 40px 7px 40px;
-    width: 220px;
-  }
-  
+    
+  /*
   footer .container {
     max-width: 1440px;  
     display: flex;
