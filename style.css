@@ -877,9 +877,6 @@ footer .container a {
   }  
 }
 
-/*
-*/
-
 @media (max-width: 1439px) {
 
   .container {
@@ -1093,8 +1090,7 @@ footer .container a {
   .price-items {  
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
   }
   
   .price-item {  
@@ -1121,8 +1117,7 @@ footer .container a {
     display: flex;
     align-items: center;
   }
-    
-  
+      
   footer .container {
     max-width: 768px;     
     display: flex;
@@ -1138,11 +1133,7 @@ footer .container a {
     font-size: 20px;
     line-height: 24px;
   }
-  /*
-  .data {
-    padding: 0 20px;
-  }
-  */
+
   footer .container a {
     font-size: 20px;
     line-height: 24px;
@@ -1156,15 +1147,15 @@ footer .container a {
   .RSS {
     margin: 0px 0px 20px 0px;
     font-size: 20px;
-    line-height: 24px;
-    
+    line-height: 24px;    
   }
   
   .social-list {
     margin-right: 0px;
     margin-bottom: 28px;
-  }
-  
+  }  
 }
 
+@media (max-width: 767px) {
 
+}
