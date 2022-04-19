@@ -1089,119 +1089,19 @@ footer .container a {
     position: relative; 
     top: 171.5px;
   }
-  /*
-  #price {  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+
   .price-items {  
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
   }
   
   .price-item {  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #BDAE82;
-    box-sizing: border-box;
-    border-radius: 0px;
-    margin-right: 25px;
-    min-width: 450px;
-  }
-  
-  .price-item:last-child {
     margin-right: 0px;
+    margin-bottom: 50px;
   }
-  
-  .price-item h4 {
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 56px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-    margin-top: 43px;
-  }
-  
-  .price-item h5 {
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 48px;
-    text-align: center;
-    color: #BDAE82;
-    margin-bottom: 20px;
-  }
-  
-  .price-item-p {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    width: 364px;
-    height: 180px;
-  }
-  
-  .price-item button {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-    background: #BDAE82;
-    border-radius: 0px;  
-    border: 0;
-    margin-bottom: 40px;
-    padding: 8px 39px 7px 39px;  
-  }
-  
-  
-  .standart h4 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .standart h5 {
-    margin-bottom: 20px;
-  }
-  
-  .premium h4 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .premium h5 {
-    margin-bottom: 20px;
-  }
-  
-  .gold h4 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .gold h5 {
-    margin-bottom: 20px;
-  }
+  /*
   
   #contacts {
     max-width: 1440px;  
