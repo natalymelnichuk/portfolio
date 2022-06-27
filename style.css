@@ -1237,19 +1237,18 @@ footer .container a {
     line-height: 40px;
   }
 
-
   h1 {
     margin: 0 0;    
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 40px;
   }
   
   main .hero p {
     margin-top: 10px;
     margin-bottom: 30px;    
     font-weight: 200;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
     width: 290px;    
   }
   
