@@ -1228,28 +1228,28 @@ footer .container a {
   }
 
   .language_button {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 40px;
   }
   
   .language_button_active {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 40px;
   }
 
 
   h1 {
     margin: 0 0;    
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 36px;
   }
   
   main .hero p {
     margin-top: 10px;
     margin-bottom: 30px;    
     font-weight: 200;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
     width: 290px;    
   }
   
@@ -1258,9 +1258,9 @@ footer .container a {
   }
   
   .hero-button {  
-    padding: 4px 36px;
-    font-size: 16px;
-    line-height: 32px;
+    padding: 4px 30px;
+    font-size: 12px;
+    line-height: 24px;
   }
 /*
   h2 {
