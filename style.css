@@ -1339,100 +1339,63 @@ footer .container a {
     height: 25px;
   }
 
-/*
-  .video {
-    margin-right: 80px;
-  }
-
-  .retouch {
-    margin-right: 40px;
-  }
-
-  .skills-items {  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .skills-items h4 {  
-    margin: 15px 5px 5px 5px;
-    width: 140px;
+  .portfolio-button {
+    font-size: 14px;
+    line-height: 28px; 
   }
   
-  .skills-items p {  
-    font-size: 9px;
-    line-height: 11px;
-    margin: 0px 5px 20px 5px;
+  .portfolio-button-active {
+    font-size: 14px;
+    line-height: 28px; 
+    padding: 3px 34.4px 2.5px 34.4px;
   }
   
-  .skills-items .items:nth-child(odd) {
-    margin-right: 22px;
-  }
-
-  .skills-items .items {
-    margin-bottom: 18px;
-  }
-
-  .video {
-    margin-right: 0px;
-  }
-  
-  .retouch {
-    margin-right: 0px;
-  }
-
-  .winter {    
-    padding: 6px 77.1px 5px 77.1px;    
-    margin-right: 0px;
+  .winter {
+    padding: 3px 38.4px 2.5px 38.4px;
   }
   
   .spring {
-    margin-right: 0px;
+    padding: 3px 38.6px 2.5px 38.6px;
   }
   
-  .summer {    
-    padding: 6px 68.8px 5px 68.8px;    
-    margin-right: 0px;
+  .summer {
+    padding: 3px 32.6px 2.5px 32.6px;
   }
-  
+
   .portfolio-list {  
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 445px;
-  }
-
-  .portfolio-list li:nth-child(odd) {
-    margin-right: 5px;
-  }
-
- .portfolio-list li:nth-child(-n+2) {
-    margin-bottom: 5px;
+    justify-content: space-around;
+    align-items: center;  
   }
   
   .portfolio-items {      
-    margin: 60px 20px 0px 20px;    
+    margin: 30px 10px 0px 10px;    
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
   }
   
   .portfolio-items li {
-    width: 450px;
-    height: 560px;    
+    width: 300px;
+    height: 370px;   
     margin-right: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
-   
+
+  .portfolio-items img {
+    width: 300px;
+    height: 370px;  
+  }
+
   .portfolio-items li:nth-child(-n+3) {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .portfolio-items li:last-child {
     margin-bottom: 0px;
   }
-
+/*
   .video1 img {
     width: 768px;
     height: 418px;
