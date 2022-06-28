@@ -1395,6 +1395,10 @@ footer .container a {
   .portfolio-items li:last-child {
     margin-bottom: 0px;
   }
+
+  .portfolio-list li:nth-child(-n+2) {
+    margin-bottom: 15px;
+  }
 /*
   .video1 img {
     width: 768px;
