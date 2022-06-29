@@ -1399,22 +1399,22 @@ footer .container a {
   .portfolio-list li:nth-child(-n+2) {
     margin-bottom: 15px;
   }
-/*
+
   .video1 img {
-    width: 768px;
-    height: 418px;
+    width: 300px;
+    height: 165px;    
   }
     
   .video-player {   
-    max-width: 768px;
-    height: 418px;
+    max-width: 300px;
+    height: 165px;
   }
   
   .video-player button {      
-    width: 75px;
-    height: 75px;   
+    width: 35px;
+    height: 35px;   
     position: relative; 
-    top: 171.5px;
+    top: 65px;
   }
 
   .price-items {  
