@@ -400,7 +400,6 @@ h2 {
   position: absolute;  
 }
 
-
 .video-player {   
   width: 1400px;
   height: 705px;  
@@ -1279,7 +1278,6 @@ footer .container a {
     width: 180px;
     height: 2px;
   }
-
     
   .skills-items {  
     display: flex;
@@ -1308,8 +1306,7 @@ footer .container a {
     font-size: 10px;
     line-height: 20px;
     margin: 25px 10px 10px 10px;
-    width: 120px;
-    
+    width: 120px;    
   }
 
   .skills-items p {  
@@ -1370,22 +1367,22 @@ footer .container a {
   }
   
   .portfolio-items {      
-    margin: 30px 10px 0px 10px;    
+    margin: 50px 10px 0px 10px;    
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
   }
   
   .portfolio-items li {
-    width: 300px;
-    height: 370px;   
+    width: 240px;
+    height: 300px;   
     margin-right: 0px;
     margin-bottom: 20px;
   }
 
   .portfolio-items img {
-    width: 300px;
-    height: 370px;  
+    width: 240px;
+    height: 300px;  
   }
 
   .portfolio-items li:nth-child(-n+3) {
@@ -1417,6 +1414,131 @@ footer .container a {
     top: 65px;
   }
 
+  .price-items {  
+    margin-bottom: 50px;
+  }
+  
+  .price-item { 
+    /* 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+    */
+    margin-right: 0px;
+    min-width: 230px;
+  }
+  
+  .price-item:last-child {
+    margin-right: 0px;
+  }
+  
+  .price-item h4 {
+    /*
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    */
+    font-size: 14px;
+    line-height: 28px;
+    /*
+    text-align: center;
+    color: #FFFFFF;
+    */
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .price-item h5 {
+    /*
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    */
+    font-size: 12px;
+    line-height: 24px;
+    /*
+    text-align: center;
+    color: #BDAE82;
+    */
+    margin-bottom: 10px;
+  }
+  
+  .price-item-p {
+    /*
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    */
+    font-size: 9px;
+    line-height: 18px;
+    /*
+    text-align: center;
+    color: #FFFFFF;
+    */
+    margin-bottom: 20px;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    */
+    width: 182px;
+    height: 90px;
+  }
+  
+  .price-item button {
+    /*
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    */
+    font-size: 10px;
+    line-height: 20px;
+    /*
+    text-align: center;
+    color: #000000;
+    background: #BDAE82;
+    border-radius: 0px;  
+    border: 0;
+    */
+    margin-bottom: 20px;
+    padding: 4px 20px 4px 20px;  
+  }
+  
+  
+  .standart h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .standart h5 {
+    margin-bottom: 10px;
+  }
+  
+  .premium h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .premium h5 {
+    margin-bottom: 10px;
+  }
+  
+  .gold h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .gold h5 {
+    margin-bottom: 10px;
+  }
+
+
+/*
   .price-items {  
     display: flex;
     flex-direction: column;
