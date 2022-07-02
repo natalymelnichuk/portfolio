@@ -1415,19 +1415,10 @@ footer .container a {
   }
 
   .price-items {  
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   
   .price-item { 
-    /* 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #BDAE82;
-    box-sizing: border-box;
-    border-radius: 0px;
-    */
     margin-right: 0px;
     min-width: 230px;
   }
@@ -1436,80 +1427,34 @@ footer .container a {
     margin-right: 0px;
   }
   
-  .price-item h4 {
-    /*
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    */
+  .price-item h4 {    
     font-size: 14px;
     line-height: 28px;
-    /*
-    text-align: center;
-    color: #FFFFFF;
-    */
     margin-bottom: 10px;
     margin-top: 20px;
   }
   
   .price-item h5 {
-    /*
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    */
     font-size: 12px;
     line-height: 24px;
-    /*
-    text-align: center;
-    color: #BDAE82;
-    */
     margin-bottom: 10px;
   }
   
   .price-item-p {
-    /*
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    */
     font-size: 9px;
     line-height: 18px;
-    /*
-    text-align: center;
-    color: #FFFFFF;
-    */
     margin-bottom: 20px;
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    */
     width: 182px;
     height: 90px;
   }
   
   .price-item button {
-    /*
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    */
     font-size: 10px;
     line-height: 20px;
-    /*
-    text-align: center;
-    color: #000000;
-    background: #BDAE82;
-    border-radius: 0px;  
-    border: 0;
-    */
     margin-bottom: 20px;
     padding: 4px 20px 4px 20px;  
   }
-  
-  
+    
   .standart h4 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -1536,61 +1481,100 @@ footer .container a {
   .gold h5 {
     margin-bottom: 10px;
   }
-
-
-/*
-  .price-items {  
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;    
-  }
-  
-  .price-item {  
-    margin-right: 0px;
-    margin-bottom: 50px;
-  }
   
   #contacts {
-    max-width: 768px; 
+    max-width: 320px; 
     background-repeat: no-repeat;
     background-position: center 0; 
-    background-size: auto 600px; 
+    background-size: auto 300px; 
   }
      
   #contacts h2 {
     display: flex;
     justify-content: center;
-    font-size: 32px;
-    line-height: 64px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    width: 320px;
   }
   
   .contacts-container {
-    margin: 60px auto 110px auto;
+    margin: 15px auto 30px auto;
     display: flex;
     align-items: center;
   }
-      
+  
+  .contacts-container-message {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .contacts-container input {
+    width: 200px;  
+    height: 25px; 
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  
+  .contacts-container input::placeholder {
+    font-size: 10px;
+    line-height: 20px;
+    text-indent: 10px;
+  }
+  
+  .contacts-container input:focus {
+    font-size: 10px;
+    line-height: 20px;
+    text-indent: 10px;
+  }
+  
+  .contacts-container textarea {
+    text-indent: 10px;
+  }
+  
+  .contacts-container textarea:focus {
+    font-size: 10px;
+    line-height: 20px;
+    text-indent: 10px;
+  }
+  
+  .contacts-container textarea::placeholder {
+    font-size: 10px;
+    line-height: 20px;
+    text-indent: 10px;  
+    vertical-align: top;  
+  }
+  
+  .contacts-container button {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 4px 20px 4px 20px;
+    width: 110px;
+  }
+      /*
   footer .container {
-    max-width: 768px;     
+    max-width: 320px;     
     display: flex;
     flex-direction: column;
     justify-content: center;     
   }
   
   .footer-data {
-    margin: 28px 0px 16px 0px;
+    margin: 14px 0px 8px 0px;
   }
   
   .footer-data p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 12px;
   }
 
   footer .container a {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 12px;
   }
-  
+  /*
   .copyright {  
     width: 19px;
     height: 24px; 
