@@ -1553,7 +1553,7 @@ footer .container a {
     padding: 4px 20px 4px 20px;
     width: 110px;
   }
-      /*
+      
   footer .container {
     max-width: 320px;     
     display: flex;
@@ -1566,29 +1566,33 @@ footer .container a {
   }
   
   .footer-data p {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 20px;
   }
 
   footer .container a {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 20px;
   }
-  /*
+  
   .copyright {  
-    width: 19px;
-    height: 24px; 
+    width: 12px;
+    height: 20px; 
   }
   
   .RSS {
-    margin: 0px 0px 20px 0px;
-    font-size: 20px;
-    line-height: 24px;    
+    margin: 0px 0px 5px 0px;
+    font-size: 12px;
+    line-height: 20px;    
   }
   
   .social-list {
     margin-right: 0px;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
   }
-  */
+
+  .social-list a {
+    width: 16px;
+    height: 30px;
+  }
 }
