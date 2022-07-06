@@ -567,6 +567,12 @@ h2 {
   justify-content: space-between;
 }
 
+.contacts-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .contacts-container-message {
   width: 450px;
   height: 100px;
@@ -1114,6 +1120,13 @@ footer .container a {
   .contacts-container {
     margin: 60px auto 110px auto;
     display: flex;
+    align-items: center;
+  }
+
+  .contacts-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
       
