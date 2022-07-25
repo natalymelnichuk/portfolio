@@ -371,7 +371,7 @@ h2 {
   display: flex; 
   flex-wrap: wrap;
 }
-*/
+
 .portfolio-items li {
   width: 450px;
   height: 560px;
@@ -508,7 +508,6 @@ h2 {
   margin-bottom: 40px;
   padding: 8px 39px 7px 39px;  
 }
-
 
 .standart h4 {
   margin-top: 40px;
@@ -762,6 +761,9 @@ footer .container a {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
 }
 
+.menu-active {
+  display: flex;
+}
 
 @media (max-width: 1919px) {
 
@@ -911,6 +913,10 @@ footer .container a {
     position: relative;
   }
 
+  .menu-active {
+    display: flex;
+  }
+
   .nav_switch .nav-wrapper {    
     position: fixed;
     top: 0px;
@@ -918,7 +924,7 @@ footer .container a {
     bottom: 0px;
     right: 0px;    
     z-index: 5;    
-    display: flex;
+    display: none;
     justify-content: end;
   }
 

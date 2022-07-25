@@ -16,9 +16,9 @@
         <div class="container">
             <img src="./assets/svg/logo.svg" alt="Main photo">
             <div class="nav_switch">
-                <div class="nav-wrapper">
+                <div class="nav-wrapper" id="menu">
                     <nav class="nav">
-                        <button type="button" class="cross">
+                        <button type="button" class="cross" id="cross">
                           
                         </button>
                         <ul>
@@ -36,7 +36,7 @@
                     <li class="language-buttons-items"><button class="language_button">ru</button></li>
                 </ul>  
                <div class="nav_menu">
-                   <button class="hamburger_unvisited">
+                   <button class="hamburger_unvisited" id="burger">
                        <span></span>
                    </button>
                </div>
@@ -198,6 +198,18 @@
             </ul>
         </div>
     </footer> 
-    
+    <script> 
+        const burgerButton = document.getElementById('burger');
+        const crossButton = document.getElementById('cross');
+        const menu = document.getElementById('menu');
+
+        burgerButton.addEventListener('click', () => {
+        menu.classList.add('menu-active');
+        });
+
+        crossButton.addEventListener('click', () => {
+        menu.classList.remove('menu-active');
+        });
+    </script>
 </body>
 </html>
