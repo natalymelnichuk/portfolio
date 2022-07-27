@@ -1667,11 +1667,6 @@ footer .container a {
 
 @media (max-width: 450px) {
 
-  .nav_switch .nav-wrapper {    
-    display: flex;
-    justify-content: end;
-  }
-
   nav {
     display: flex;
     flex-direction: column;
