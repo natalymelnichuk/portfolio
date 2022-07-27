@@ -761,10 +761,6 @@ footer .container a {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
 }
 
-.menu-active {
-  display: flex;
-}
-
 @media (max-width: 1919px) {
 
   .container {
@@ -913,11 +909,7 @@ footer .container a {
     position: relative;
   }
 
-  .menu-active {
-    display: flex;
-  }
-
-  .nav_switch .nav-wrapper {    
+  .nav-wrapper {    
     position: fixed;
     top: 0px;
     left: 0px;
@@ -926,6 +918,10 @@ footer .container a {
     z-index: 5;    
     display: none;
     justify-content: end;
+  }
+
+  .menu-active {
+    display: flex;
   }
 
   nav {
@@ -1713,12 +1709,6 @@ footer .container a {
 @media (max-width: 450px) {
 
   .nav_switch .nav-wrapper {    
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;    
-    z-index: 5;    
     display: flex;
     justify-content: end;
   }
