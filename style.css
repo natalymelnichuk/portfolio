@@ -1667,13 +1667,12 @@ footer .container a {
 
 @media (max-width: 450px) {
 
+ 
   nav {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    position: relative;
-    width: 100%;        
-    background-color: #000000;
+    align-items: center;  
+    width: 100%;   
   }
 
   .nav-wrapper::before {
@@ -1687,32 +1686,19 @@ footer .container a {
   }
   
   nav button {
-    border: none;
     width: 25px; 
     height: 25px;
-    background-color: transparent;
-    position: relative;
     margin-right: 0px;
   }
 
   nav button::after {
-    content: '';
-    display: block;    
-    position: absolute;    
     width: 25px;
     height: 1px;
-    background-color: white;
-    transform: rotate(-45deg) translateX(2px)  translateY(-2px);
   }
 
   nav button::before {
-    content: '';
-    display: block;
-    position: absolute;
     width: 25px;
     height: 1px;
-    background-color: white;
-    transform: rotate(45deg) translateX(-2px) translateY(-2px);
   }
 
   .nav_switch .nav ul {
@@ -1724,13 +1710,8 @@ footer .container a {
   }
 
   .nav_switch .nav ul li {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 40px;
-    color: #FFFFFF;
-    margin: 0 0;
   }
 
   .nav_switch nav ul li:last-child {
